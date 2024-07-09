@@ -12,30 +12,34 @@
 <body>
     <div class="container">
         <header>
-            <img src="assets/Top.png" alt="Icon_Alura">
+            <a href="https://www.alura.com.br" target="_blank">
+                <img src="assets/Top.png" alt="Icon_Alura">
+            </a>
         </header>
         <main>
             <section class="input-section">
                 <textarea id="inputText" placeholder="digite seu texto"></textarea>
-                <p class="note">Apenas letras minúsculas e sem acento.</p>
+                <p class="note"><img src="assets/bi_exclamation-circle-fill.png" alt="!"></i>Apenas letras minúsculas e sem acento.</p>
                 <div class="buttons">
                     <button id="encryptBtn" class="btn">Criptografar</button>
                     <button id="decryptBtn" class="btn secondary">Descriptografar</button>
                 </div>
-                
             </section>
             <section class="output-section">
                 <div class="output-placeholder">
                     <img src="assets/1.PNG" alt="Nenhuma mensagem encontrada">
                 </div>
                 <textarea id="outputText" readonly></textarea>
-                <button id="copyBtn" class="btn">Copiar</button>
+                <p class="note2"><img src="assets/bi_exclamation-circle-fill.png" alt="!"></i>Apenas letras minúsculas e sem acento.</p>
+                <div class="copyButton">
+                    <button id="copyBtn" class="btn">Copiar</button>
+                </div>
             </section>
         </main>
-        <footer>
-            <p>desenvol Lucas Junior</p>
-        </footer>
     </div>
     <script src="script.js"></script>
 </body>
+<footer>
+    <p>Desenvolvido por <a href="https://github.com/lucasjuniordev" target="_blank">Lucas Junior</a></p>
+</footer>
 </html>
