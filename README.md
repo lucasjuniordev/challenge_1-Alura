@@ -64,6 +64,6 @@ Desenvolvido por Lucas Junior. Entre em contato!
 
 # Autor
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/77315059?s=400&v=4" width=115><br><sub><Lucas Alves França Junior</sub>](https://github.com/lucasjuniordev) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/77315059?s=400&v=4" width=115><br><sub>Lucas Alves França Junior</sub>](https://github.com/lucasjuniordev) |
 | :---: | 
 
