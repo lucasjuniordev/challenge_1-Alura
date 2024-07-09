@@ -5,7 +5,7 @@
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Executar o Projeto](#como-executar-o-projeto)
-- [LinkedIn](www.linkedin.com/in/lucas-junior-dev/)
+- [LinkedIn](#Autor)
 
 ## Sobre o Projeto
 Este projeto é uma aplicação web simples para criptografar e descriptografar textos. Foi desenvolvido com o intuito de praticar e demonstrar conhecimentos em HTML, CSS e JavaScript, utilizando uma interface intuitiva e amigável.
@@ -62,6 +62,8 @@ Desenvolvido por Lucas Junior. Entre em contato!
 - **Lista de Tecnologias**: Destaquei as tecnologias utilizadas em uma lista para fácil visualização.
 
 # Autor
+
+www.linkedin.com/in/lucas-junior-dev/
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/77315059?s=400&v=4" width=115><br><sub>Lucas Alves França Junior</sub>](https://github.com/lucasjuniordev) |
 | :---: | 
