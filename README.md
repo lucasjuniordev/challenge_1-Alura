@@ -5,8 +5,8 @@
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Executar o Projeto](#como-executar-o-projeto)
-- [Como Contribuir](#como-contribuir)
-- [Contato](#contato)
+- [Como Contribuir](www.linkedin.com/in/lucas-junior-dev)
+- [Contato](www.linkedin.com/in/lucas-junior-dev)
 
 ## Sobre o Projeto
 Este projeto é uma aplicação web simples para criptografar e descriptografar textos. Foi desenvolvido com o intuito de praticar e demonstrar conhecimentos em HTML, CSS e JavaScript, utilizando uma interface intuitiva e amigável.
