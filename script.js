@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
     copyBtn.addEventListener('click', () => {
         outputText.select();
         document.execCommand('copy');
-        alert('Texto copiado para a área de transferência!');
+        alert('Texto copiado para a área de transferência! ');
     });
 });
