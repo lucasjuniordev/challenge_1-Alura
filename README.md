@@ -1,4 +1,4 @@
-# Criptografia de Textos
+<h1 align="center"> Criptografia de Textos </h1>
 
 ## Índice
 - [Sobre o Projeto](#sobre-o-projeto)
@@ -27,7 +27,7 @@ Este projeto é uma aplicação web simples para criptografar e descriptografar 
 ## Como Executar o Projeto
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/lucasjuniordev/criptografia-de-textos.git
+   git clone https://github.com/lucasjuniordev/challenge_1-Alura.git
 Navegue até o diretório do projeto:
 
 sh
@@ -56,13 +56,14 @@ Crie um pull request.
 Contato
 Desenvolvido por Lucas Junior. Entre em contato!
 
-markdown
-Copiar código
-
 ### Explicações:
 - **Markdown Estruturado**: Utilizei cabeçalhos, listas e links para organizar e destacar as seções do README.
 - **Formatação de Código**: Utilizei blocos de código para instruções de clone, navegação e execução do projeto.
 - **Links Ativos**: Incluí links para contato e execução do projeto para facilitar a navegação.
 - **Lista de Tecnologias**: Destaquei as tecnologias utilizadas em uma lista para fácil visualização.
 
-Este formato ajudará os usuários a entender rapidamente o propósito, funcionalidades, tecnologias utilizadas e como contribuir com seu projeto de criptografia de textos no GitHub.
+# Autor
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/77315059?s=400&v=4" width=115><br><sub><Lucas Alves França Junior</sub>](https://github.com/lucasjuniordev) |
+| :---: | :---: | :---: |
+
