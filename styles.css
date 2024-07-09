@@ -1,70 +1,210 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+.container {
+    background-color: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header img {
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 main {
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e4e9fd;
+    width: 100%;
 }
 
-footer {
+.input-section #inputText{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    height: 20vw;
+    width: 40vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+
+.input-section #inputText::placeholder {
+    text-align: left; /* Alinhar o placeholder à esquerda */
+    padding-top: 0; /* Remover padding superior */
+    margin-top: -5px; /* Ajustar a margem superior para alinhar no topo */
+}
+
+.output-section{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+textarea {
+    background-color: rgb(255, 255, 255);
+    height: 20vw;
+    width: 40vw;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #072B61;
+    color: #FFFFFF;
+    border: solid 1px  #072B61;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.btn.secondary {
+    background-color: #a0a8b3;
+    border: solid 1px  #072B61;
+}
+
+.btn:hover{
+    background-color: #a0a8b3;
+
+}
+
+.btn.secondary:hover {
+    background-color: #072B61;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.output-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
     text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
+    color: #666;
 }
 
-button {
-    background-color: #333;
+#outputText {
+    display: none;
+}
+
+#copyBtn {
+    display: none;
+    background-color: #072B61;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 10px;
+    border: solid 1px  #a0a8b3;
 }
 
-button:hover {
-    background-color: #555;
+/* Responsivo para tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #copyBtn {
+        width: 100%;
+    }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .note {
+        font-size: 0.8rem;
+    }
+
+    #copyBtn {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2rem;
+    }
 }
